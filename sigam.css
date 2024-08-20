@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    Liberation Mono, Courier New, monospace;
+  font-weight: 700;
+}
+#body {
+  background-image: url("mario-bg copy.jpg");
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+#soil {
+  background-image: url("soil copy.png");
+  object-fit: contain;
+  width: 800px;
+  height: 800px;
+  border: white solid 10px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#Start {
+  width: 200px;
+  height: 40px;
+  border-radius: 6px;
+  font-size: 25px;
+  cursor: pointer;
+}
+#End {
+  width: 200px;
+  height: 40px;
+  border-radius: 6px;
+  font-size: 25px;
+  cursor: pointer;
+}
